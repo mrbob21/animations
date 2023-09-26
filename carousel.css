@@ -86,7 +86,7 @@ section {
     filter: saturate(10%);
 }
 
-.button {
+.slider-button {
     position: absolute;
     width: 500px;
     height: 350px;
@@ -94,31 +94,37 @@ section {
     background-color: rgba(0,0,0,.4);
 }
 
-.button:hover {
+.slider-button:hover {
   background-color: rgba(0,0,0,.2);
 }
 
 /* when clicked, color */
+/* .slider-image:active,
+.slider-button:active {
+    filter: saturate(100%);
+    background-color: transparent;
+  } */
+
 #slider-one-span1:target ~ .image-slider #img1,
-#slider-one-span1:target ~.image-slider #button-1{
+#slider-one-span1:target ~.image-slider #slider-button-1{
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-one-span2:target ~ .image-slider #img2,
-#slider-one-span2:target ~.image-slider #button-2{
+#slider-one-span2:target ~.image-slider #slider-button-2{
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-one-span3:target ~ .image-slider #img3,
-#slider-one-span3:target ~.image-slider #button-3{
+#slider-one-span3:target ~.image-slider #slider-button-3{
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-one-span4:target ~ .image-slider #img4,
-#slider-one-span4:target ~.image-slider #button-4{
+#slider-one-span4:target ~.image-slider #slider-button-4{
     background-color: transparent;
     filter: saturate(100%);
 }
@@ -142,25 +148,25 @@ section {
 /* SLIDER TWO */
 
 #slider-two-span1:target ~ .image-slider #img1,
-#slider-two-span1:target ~.image-slider #button-1{
+#slider-two-span1:target ~.image-slider #slider-button-1{
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-two-span2:target ~ .image-slider #img2,
-#slider-two-span2:target ~.image-slider #button-2{
+#slider-two-span2:target ~.image-slider #slider-button-2{
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-two-span3:target ~ .image-slider #img3,
-#slider-two-span3:target ~.image-slider #button-3{
+#slider-two-span3:target ~.image-slider #slider-button-3{
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-two-span4:target ~ .image-slider #img4,
-#slider-two-span4:target ~.image-slider #button-4{
+#slider-two-span4:target ~.image-slider #slider-button-4{
     background-color: transparent;
     filter: saturate(100%);
 }
@@ -183,25 +189,25 @@ section {
 /* SLIDER THREE */
 
 #slider-three-span1:target ~ .image-slider #img1,
-#slider-three-span1:target ~.image-slider #button-1{
+#slider-three-span1:target ~.image-slider #slider-button-1{
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-three-span2:target ~ .image-slider #img2,
-#slider-three-span2:target ~.image-slider #button-2{
+#slider-three-span2:target ~.image-slider #slider-button-2{
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-three-span3:target ~ .image-slider #img3,
-#slider-three-span3:target ~.image-slider #button-3{
+#slider-three-span3:target ~.image-slider #slider-button-3{
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-three-span4:target ~ .image-slider #img4,
-#slider-three-span4:target ~.image-slider #button-4{
+#slider-three-span4:target ~.image-slider #slider-button-4{
     background-color: transparent;
     filter: saturate(100%);
 }
