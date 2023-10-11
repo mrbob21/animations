@@ -157,12 +157,23 @@ section {
     filter: saturate(100%);
 }
 
+/* PRICE INFORMATION */
+#price-information-one {
+  position: absolute;
+  font-size: 2rem;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 13%;
+  bottom: 0%;
+}
+
 #slider-one-span1:target ~.image-slider{
     left:10%;
 }
 
 #slider-one-span2:target ~.image-slider{
-    left:0%;
+    left: -2%;
 }
 
 #slider-one-span3:target ~.image-slider{
@@ -170,7 +181,7 @@ section {
 }
 
 #slider-one-span4:target ~.image-slider{
-  left:-25%;
+  left:-27%;
 }
 
 #slider-one-span5:target ~.image-slider{
@@ -178,15 +189,15 @@ section {
 }
 
 #slider-one-span6:target ~.image-slider{
-  left:-55%;
+  left:-52%;
 }
 
 #slider-one-span7:target ~.image-slider{
-  left:-60%;
+  left:-65%;
 }
 
 #slider-one-span8:target ~.image-slider{
-  left:-75%;
+  left:-77%;
 }
 
 /* SLIDER TWO */
