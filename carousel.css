@@ -47,7 +47,7 @@ section {
   width: fit-content;
   box-sizing: border-box;
   min-height: fit-content;
-  background-color: blue;
+  background-color: skyblue;
   padding: 30px;
   display: flex;
 }
@@ -58,7 +58,7 @@ section {
   width: fit-content;
   box-sizing: border-box;
   min-height: fit-content;
-  background-color: green;
+  background-color: lightgreen;
   padding: 30px;
   display: flex;
 }
