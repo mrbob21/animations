@@ -87,7 +87,7 @@ section {
     width: 500px;
     height: 350px;
     transition: 0.5s;
-    filter: saturate(10%);
+    filter: saturate(50%);
 }
 
 .slider-button {
